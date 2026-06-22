@@ -1,4 +1,4 @@
-[README (1).md](https://github.com/user-attachments/files/29193878/README.1.md)
+[README (2).md](https://github.com/user-attachments/files/29194682/README.2.md)
 # OpenHPC Cluster Installation Guide
 
 > **Best Practice Runbook** — Rocky Linux 9 + OpenHPC 3 + Warewulf + SLURM
@@ -6,7 +6,6 @@
 [![OpenHPC](https://img.shields.io/badge/OpenHPC-3.x-blue)](https://openhpc.community/)
 [![Rocky Linux](https://img.shields.io/badge/Rocky_Linux-9-green)](https://rockylinux.org/)
 [![SLURM](https://img.shields.io/badge/SLURM-Workload_Manager-orange)](https://slurm.schedmd.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 This runbook provides a step-by-step guide to deploying a fully functional HPC cluster using OpenHPC 3 on Rocky Linux 9, provisioned via Warewulf and managed with SLURM. It is designed for lab and educational environments, with production considerations noted throughout.
 
@@ -436,14 +435,4 @@ cat /home/testjob/hello_*.out      # Read output from sms
 | Write output to shared storage | Always write under `/home` (NFS) and include NFS mount in `fstab` | `sbatch` output files missing or stranded on compute nodes |
 | Validate at each phase | Use the checkpoint commands at the end of each phase before proceeding | Discovering issues late and having to debug across multiple phases |
 
----
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
