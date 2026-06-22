@@ -1,4 +1,4 @@
-[README (2).md](https://github.com/user-attachments/files/29194682/README.2.md)
+[README (3).md](https://github.com/user-attachments/files/29195356/README.3.md)
 # OpenHPC Cluster Installation Guide
 
 > **Best Practice Runbook** — Rocky Linux 9 + OpenHPC 3 + Warewulf + SLURM
@@ -24,6 +24,8 @@ This runbook provides a step-by-step guide to deploying a fully functional HPC c
 ---
 
 ## Cluster Architecture
+
+![Cluster Architecture](assets/cluster-architecture.png)
 
 | Node | Hostname | Internal IP | Network / Role |
 |------|----------|-------------|----------------|
